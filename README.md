@@ -1,1 +1,3 @@
-This project is for the development of portfolio produced with React and JavaScript.
+# Portfolio
+
+This project is for the development of my portfolio which is produced with React and JavaScript.
