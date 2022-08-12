@@ -80,7 +80,7 @@ function Portfolio() {
               <h2 id="portfolio_link">
                 <a href="#header" target="_blank" rel="noopener noreferrer" title="See Portfolio">Portfolio</a>
               </h2>
-              <a href="https://github.com/jerrylj2" target="_blank" rel="noopener noreferrer" id="portfolio_github_link">
+              <a href="https://github.com/jerrylj2/My_Portfolio" target="_blank" rel="noopener noreferrer" id="portfolio_github_link">
                   <FaGithub className="icons icons_projects" title="GitHub"/>
               </a>
             </div>
