@@ -48,7 +48,7 @@ body {
 }
 
 #header {
-    background-color: rgba(0, 0, 0, 0.403);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     position: sticky;
     top: 0;
@@ -102,11 +102,15 @@ body {
     justify-content: center;
 }
 
-#My_pic {
+#intro_pic_container {
     width: 30%;
+    margin-right: 3%;
+}
+
+#my_pic {
+    width: 100%;
     height: auto;
     border-radius: 90%;
-    margin-right: 3%;
 }
 
 #intro_statement {
@@ -285,3 +289,48 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 992px) {
+    #calc_details {
+        width: 50%;
+    }
+
+    #calc_pic_container {
+        width: 50%;
+    }
+
+    #portfolio_details {
+        width: 50%;
+    }
+
+    #portfolio_pic_container {
+        width: 50%;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    #intro {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    #intro_pic_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #my_pic {
+        width: 70%;
+    }
+    
+    #intro_statement {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+  }
