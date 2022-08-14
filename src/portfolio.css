@@ -334,3 +334,41 @@ footer {
         flex-wrap: wrap;
     }
   }
+
+@media only screen and (max-width: 400px) {
+    #calc {
+        flex-direction: column;
+    }
+
+    #calc_details {
+        width: 100%;
+    }
+
+    #calc_pic_container {
+        width: 100%;
+    }
+
+    #portfolio {
+        flex-direction: column-reverse;
+    }
+
+    #portfolio_details {
+        width: 100%;
+    }
+
+    #portfolio_pic_container {
+        width: 100%;
+    }
+  }
+  
+@media only screen and (max-width: 370px) {
+    #header a {
+        font-size: 1em;
+    }
+  }
+
+@media only screen and (max-width: 320px) {
+    #contact_icons {
+        flex-direction: column;
+    }
+  }
