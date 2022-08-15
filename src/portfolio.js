@@ -52,7 +52,7 @@ function Portfolio() {
           <div id="calc_details">
             <div id="calc_github">
               <h2 id="calc_link">
-                <a href="https://polar-anchorage-68644.herokuapp.com/" target="_blank" rel="noopener noreferrer" title="See Calculator">Calculator</a>
+                <a href="https://calculator-jerryjackson.herokuapp.com/" target="_blank" rel="noopener noreferrer" title="See Calculator">Calculator</a>
               </h2>
               <a href="https://github.com/jerrylj2/Calculator" target="_blank" rel="noopener noreferrer" id="calc_github_link">
                   <FaGithub className="icons icons_projects" title="GitHub"/>
