@@ -2,7 +2,7 @@ import './portfolio.css';
 import My_pic from './images/my_picture.jpg';
 import Calc_pic from './images/calculator.jpg';
 import Portfolio_pic from './images/portfolio_pic.jpg';
-import { FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaJava, FaPython, FaGitAlt, FaGithub } from "react-icons/fa";
+import { FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaJava, FaPython, FaGitAlt, FaGithub, FaNodeJs } from "react-icons/fa";
 import { SiFlask, SiR, SiVisualstudiocode, SiMicrosoftsqlserver, SiMicrosoftexcel, SiHeroku, SiGmail, SiLinkedin } from "react-icons/si";
 
 function Portfolio() {
@@ -31,6 +31,7 @@ function Portfolio() {
         <div>
           <FaJsSquare className="icons icons_skills_contact icons_skills" title="JavaScript"/>
           <FaReact className="icons icons_skills_contact icons_skills" title="ReactJS"/>
+          <FaNodeJs className="icons icons_skills_contact icons_skills" title="Node.js"/>
           <FaHtml5 className="icons icons_skills_contact icons_skills" title="HTML5"/>
           <FaCss3Alt className="icons icons_skills_contact icons_skills" title="CSS"/>
           <FaGitAlt className="icons icons_skills_contact icons_skills" title="Git"/>
