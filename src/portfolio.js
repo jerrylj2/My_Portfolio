@@ -1,9 +1,9 @@
 import './portfolio.css';
-import My_pic from './images/my_picture.jpg';
-import Calc_pic from './images/calculator.jpg';
-import Portfolio_pic from './images/portfolio_pic.jpg';
-import { FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaJava, FaPython, FaGitAlt, FaGithub, FaNodeJs } from "react-icons/fa";
-import { SiFlask, SiR, SiVisualstudiocode, SiMicrosoftsqlserver, SiMicrosoftexcel, SiHeroku, SiGmail, SiLinkedin, SiTypescript } from "react-icons/si";
+import Intro from './components/Intro.tsx';
+import Skills from './components/Skills.tsx';
+import CalculatorProject from './components/CalculatorProject.tsx';
+import PortfolioProject from './components/PortfolioProject.tsx';
+import Contact from './components/Contact.tsx'
 
 function Portfolio() {
   return (
@@ -14,117 +14,17 @@ function Portfolio() {
         <a href="#projects" className="tabs" id="projects_header">Projects</a>
         <a href="#contact" className="tabs" id="contact_header">Contact</a>
       </div>
-      <div id="intro">
-        <div id="intro_pic_container">
-          <img src={My_pic} alt="Me" id="my_pic"></img>
-        </div>
-        <div id="intro_statement">
-          <p>Hi! My name is <strong id="name">Jerry Jackson</strong> and I am a <strong>Software Developer</strong>!</p> 
-          <p>I am passionate about the creativity in <strong>frontend</strong> development and the logical and critical thinking required for <strong>backend</strong> development.</p> 
-          <p>Currently, I develop in-house software at <strong id="company">Allstate</strong>. I'm also a credentialed <strong>Actuary</strong>!</p>
-        </div>
-      </div>
+      <Intro />
       <div id="angled_color_intro"></div>
-      <div id="skills">
-        <h1>Skills</h1>
-        <h2>Here are some skills, tools, and technologies that I use:</h2>
-        <div>
-          <FaJsSquare className="icons icons_skills_contact icons_skills" title="JavaScript"/>
-          <FaReact className="icons icons_skills_contact icons_skills" title="ReactJS"/>
-          <SiTypescript className="icons icons_skills_contact icons_skills" title="TypeScript"/>
-          <FaNodeJs className="icons icons_skills_contact icons_skills" title="Node.js"/>
-          <FaHtml5 className="icons icons_skills_contact icons_skills" title="HTML5"/>
-          <FaCss3Alt className="icons icons_skills_contact icons_skills" title="CSS"/>
-          <FaGitAlt className="icons icons_skills_contact icons_skills" title="Git"/>
-          <FaGithub className="icons icons_skills_contact icons_skills" title="GitHub"/>
-          <FaJava className="icons icons_skills_contact icons_skills" title="Java"/>
-          <FaPython className="icons icons_skills_contact icons_skills" title="Python"/>
-          <SiFlask className="icons icons_skills_contact icons_skills" title="Flask"/>
-          <SiR className="icons icons_skills_contact icons_skills" title="R, R Shiny, R Markdown"/>
-          <SiVisualstudiocode className="icons icons_skills_contact icons_skills" title="Visual Studio Code"/>
-          <SiMicrosoftsqlserver className="icons icons_skills_contact icons_skills" title="SQL Server"/>
-          <SiMicrosoftexcel className="icons icons_skills_contact icons_skills" title="Excel"/>
-          <SiHeroku className="icons icons_skills_contact icons_skills" title="Heroku"/>
-        </div>
-      </div>
+      <Skills />
       <div id="angled_color_skills"></div>
       <div id="projects">
         <h1>Projects</h1>
-        <div id="calc">
-          <div id="calc_details">
-            <div id="calc_github">
-              <h2 id="calc_link">
-                <a href="https://calculator-jerryjackson.herokuapp.com/" target="_blank" rel="noopener noreferrer" title="See Calculator">Calculator</a>
-              </h2>
-              <a href="https://github.com/jerrylj2/Calculator" target="_blank" rel="noopener noreferrer" id="calc_github_link">
-                  <FaGithub className="icons icons_projects" title="GitHub"/>
-              </a>
-            </div>
-            <div>
-              <p><strong>A web app calculator developed using React and TypeScript!</strong></p>
-            </div>
-            <div>
-              <FaReact className="icons icons_projects" title="ReactJS"/>
-              <SiTypescript className="icons icons_projects" title="TypeScript"/>
-              <FaHtml5 className="icons icons_projects" title="HTML5"/>
-              <FaCss3Alt className="icons icons_projects" title="CSS"/>
-              <SiHeroku className="icons icons_projects" title="Heroku"/>
-            </div>
-          </div>
-          <div id="calc_pic_container">
-            <img src={Calc_pic} alt="Calculator" id="Calc_pic"></img>
-          </div>
-        </div>
-        <div id="portfolio">
-          <div id="portfolio_pic_container">
-            <img src={Portfolio_pic} alt="Portfolio" id="portfolio_pic"></img>
-          </div>
-          <div id="portfolio_details">
-            <div id="portfolio_github">
-              <h2 id="portfolio_link">
-                <a href="#header" target="_blank" rel="noopener noreferrer" title="See Portfolio">Portfolio</a>
-              </h2>
-              <a href="https://github.com/jerrylj2/My_Portfolio" target="_blank" rel="noopener noreferrer" id="portfolio_github_link">
-                  <FaGithub className="icons icons_projects" title="GitHub"/>
-              </a>
-            </div>
-            <div>
-            <p><strong>This portfolio which was developed using React!</strong></p>
-            </div>
-            <div>
-              <FaReact className="icons icons_projects" title="ReactJS"/>
-              <FaJsSquare className="icons icons_projects" title="JavaScript"/>
-              <FaHtml5 className="icons icons_projects" title="HTML5"/>
-              <FaCss3Alt className="icons icons_projects" title="CSS"/>
-              <SiHeroku className="icons icons_projects" title="Heroku"/>
-            </div>
-          </div>
-        </div>
+        <CalculatorProject />
+        <PortfolioProject />
       </div>
       <div id="angled_color_projects"></div>
-      <div id="contact">
-        <h1 id="contact_title">Contact</h1>
-        <p id="contact_content"><strong>Feel free to reach out below!</strong></p>
-        <div id="contact_icons">
-          <div>
-            <a href="mailto:jerryljackson3@gmail.com">
-              <SiGmail className="icons icons_skills_contact icons_contact" title="Gmail"/>
-            </a>
-          </div>
-          <span className="icon_spacing"></span>
-          <div>
-            <a href="https://www.linkedin.com/in/jerry-jackson-acas-a508a5132/" target="_blank" rel="noopener noreferrer">
-              <SiLinkedin className="icons icons_skills_contact icons_contact" title="LinkedIn"/>
-            </a>
-          </div>
-          <span className="icon_spacing"></span>
-          <div>
-            <a href="https://github.com/jerrylj2" target="_blank" rel="noopener noreferrer">
-              <FaGithub className="icons icons_skills_contact icons_contact" title="GitHub"/>
-            </a>
-          </div>
-        </div>
-      </div>
+      <Contact />
       <footer>
         <p>© 2022 | designed & coded by Jerry Jackson</p>
       </footer>
