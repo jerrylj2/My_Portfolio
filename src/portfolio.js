@@ -3,7 +3,7 @@ import My_pic from './images/my_picture.jpg';
 import Calc_pic from './images/calculator.jpg';
 import Portfolio_pic from './images/portfolio_pic.jpg';
 import { FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaJava, FaPython, FaGitAlt, FaGithub, FaNodeJs } from "react-icons/fa";
-import { SiFlask, SiR, SiVisualstudiocode, SiMicrosoftsqlserver, SiMicrosoftexcel, SiHeroku, SiGmail, SiLinkedin } from "react-icons/si";
+import { SiFlask, SiR, SiVisualstudiocode, SiMicrosoftsqlserver, SiMicrosoftexcel, SiHeroku, SiGmail, SiLinkedin, SiTypescript } from "react-icons/si";
 
 function Portfolio() {
   return (
@@ -31,6 +31,7 @@ function Portfolio() {
         <div>
           <FaJsSquare className="icons icons_skills_contact icons_skills" title="JavaScript"/>
           <FaReact className="icons icons_skills_contact icons_skills" title="ReactJS"/>
+          <SiTypescript className="icons icons_skills_contact icons_skills" title="TypeScript"/>
           <FaNodeJs className="icons icons_skills_contact icons_skills" title="Node.js"/>
           <FaHtml5 className="icons icons_skills_contact icons_skills" title="HTML5"/>
           <FaCss3Alt className="icons icons_skills_contact icons_skills" title="CSS"/>
@@ -60,13 +61,13 @@ function Portfolio() {
               </a>
             </div>
             <div>
-              <p><strong>A web app calculator developed using JavaScript and Flask!</strong></p>
+              <p><strong>A web app calculator developed using React and TypeScript!</strong></p>
             </div>
             <div>
-              <FaJsSquare className="icons icons_projects" title="JavaScript"/>
+              <FaReact className="icons icons_projects" title="ReactJS"/>
+              <SiTypescript className="icons icons_projects" title="TypeScript"/>
               <FaHtml5 className="icons icons_projects" title="HTML5"/>
               <FaCss3Alt className="icons icons_projects" title="CSS"/>
-              <SiFlask className="icons icons_projects" title="Flask"/>
               <SiHeroku className="icons icons_projects" title="Heroku"/>
             </div>
           </div>
