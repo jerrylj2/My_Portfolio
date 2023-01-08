@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaReact, FaHtml5, FaCss3Alt, FaGithub } from "react-icons/fa";
-import { SiHeroku, SiTypescript, SiMaterialui } from "react-icons/si";
+import { SiTypescript, SiMaterialui, SiAwsamplify } from "react-icons/si";
 import Stat_Quiz_pic from '../images/stat_quiz_pic.jpg';
 
 interface  project_props {
@@ -13,7 +13,7 @@ function StatQuizProject(props: project_props) {
             <div id={props.direction + "_project_details"}>
                 <div id={props.direction + "_project_github"}>
                     <h2 id={props.direction + "_project_link"}>
-                        <a href="https://calculator-jerryjackson.herokuapp.com/" target="_blank" rel="noopener noreferrer" title="See Stat Quiz Challenge">Stat Quiz Challenge</a>
+                        <a href="https://master.d1dnrrgqmraews.amplifyapp.com/" target="_blank" rel="noopener noreferrer" title="See Stat Quiz Challenge">Stat Quiz Challenge</a>
                     </h2>
                     <a href="https://github.com/jerrylj2/Stat_Quiz_Challenge" target="_blank" rel="noopener noreferrer" id={props.direction + "_project_github_link"}>
                         <FaGithub className="icons icons_projects" title="GitHub" />
@@ -28,7 +28,7 @@ function StatQuizProject(props: project_props) {
                     <SiTypescript className="icons icons_projects" title="TypeScript" />
                     <FaHtml5 className="icons icons_projects" title="HTML5" />
                     <FaCss3Alt className="icons icons_projects" title="CSS" />
-                    <SiHeroku className="icons icons_projects" title="Heroku" />
+                    <SiAwsamplify className="icons icons_projects" title="AWS Amplify" />
                 </div>
             </div>
             <div id={props.direction + "_project_pic_container"}>

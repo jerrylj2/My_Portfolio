@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaJava, FaPython, FaGitAlt, FaGithub, FaNodeJs } from "react-icons/fa";
-import { SiFlask, SiR, SiVisualstudiocode, SiMicrosoftsqlserver, SiMicrosoftexcel, SiHeroku, SiTypescript, SiMaterialui } from "react-icons/si";
+import { SiFlask, SiR, SiVisualstudiocode, SiMicrosoftsqlserver, SiMicrosoftexcel, SiHeroku, SiTypescript, SiMaterialui, SiAwsamplify } from "react-icons/si";
 
 function Skills() {
     return (
@@ -25,6 +25,7 @@ function Skills() {
                 <SiMicrosoftsqlserver className="icons icons_skills_contact icons_skills" title="SQL Server" />
                 <SiMicrosoftexcel className="icons icons_skills_contact icons_skills" title="Excel" />
                 <SiHeroku className="icons icons_skills_contact icons_skills" title="Heroku" />
+                <SiAwsamplify className="icons icons_skills_contact icons_skills" title="AWS Amplify" />
             </div>
         </div>
     )
