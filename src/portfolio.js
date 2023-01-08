@@ -4,6 +4,7 @@ import Skills from './components/Skills.tsx';
 import CalculatorProject from './components/CalculatorProject.tsx';
 import PortfolioProject from './components/PortfolioProject.tsx';
 import Contact from './components/Contact.tsx'
+import StatQuizProject from './components/StatQuizProject.tsx';
 
 function Portfolio() {
   return (
@@ -20,13 +21,14 @@ function Portfolio() {
       <div id="angled_color_skills"></div>
       <div id="projects">
         <h1>Projects</h1>
-        <CalculatorProject />
-        <PortfolioProject />
+        <StatQuizProject direction="left"/>
+        <CalculatorProject direction="right"/>
+        <PortfolioProject direction="left"/>
       </div>
       <div id="angled_color_projects"></div>
       <Contact />
       <footer>
-        <p>© 2022 | designed & coded by Jerry Jackson</p>
+        <p>© 2023 | designed & coded by Jerry Jackson</p>
       </footer>
     </body>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaJava, FaPython, FaGitAlt, FaGithub, FaNodeJs } from "react-icons/fa";
-import { SiFlask, SiR, SiVisualstudiocode, SiMicrosoftsqlserver, SiMicrosoftexcel, SiHeroku, SiTypescript } from "react-icons/si";
+import { SiFlask, SiR, SiVisualstudiocode, SiMicrosoftsqlserver, SiMicrosoftexcel, SiHeroku, SiTypescript, SiMaterialui } from "react-icons/si";
 
 function Skills() {
     return (
@@ -11,6 +11,7 @@ function Skills() {
                 <FaJsSquare className="icons icons_skills_contact icons_skills" title="JavaScript" />
                 <FaReact className="icons icons_skills_contact icons_skills" title="ReactJS" />
                 <SiTypescript className="icons icons_skills_contact icons_skills" title="TypeScript" />
+                <SiMaterialui className="icons icons_skills_contact icons_skills" title="Material UI" />
                 <FaNodeJs className="icons icons_skills_contact icons_skills" title="Node.js" />
                 <FaHtml5 className="icons icons_skills_contact icons_skills" title="HTML5" />
                 <FaCss3Alt className="icons icons_skills_contact icons_skills" title="CSS" />
