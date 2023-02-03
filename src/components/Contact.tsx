@@ -15,7 +15,7 @@ function Contact() {
                 </div>
                 <span className="icon_spacing"></span>
                 <div>
-                    <a href="https://www.linkedin.com/in/jerry-jackson-acas-a508a5132/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/jerry-jackson-a508a5132/" target="_blank" rel="noopener noreferrer">
                         <SiLinkedin className="icons icons_skills_contact icons_contact" title="LinkedIn" />
                     </a>
                 </div>
