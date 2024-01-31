@@ -13,7 +13,7 @@ function StatQuizProject(props: project_props) {
             <div id={props.direction + "_project_details"}>
                 <div id={props.direction + "_project_github"}>
                     <h2 id={props.direction + "_project_link"}>
-                        <a href="https://master.d1dnrrgqmraews.amplifyapp.com/" target="_blank" rel="noopener noreferrer" title="See Stat Quiz Challenge">Stat Quiz Challenge</a>
+                        <a href="https://statquizchallenge-f5b5e7a39859.herokuapp.com/" target="_blank" rel="noopener noreferrer" title="See Stat Quiz Challenge">Stat Quiz Challenge</a>
                     </h2>
                     <a href="https://github.com/jerrylj2/Stat_Quiz_Challenge" target="_blank" rel="noopener noreferrer" id={props.direction + "_project_github_link"}>
                         <FaGithub className="icons icons_projects" title="GitHub" />
