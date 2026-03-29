@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaReact, FaHtml5, FaCss3Alt, FaGithub } from "react-icons/fa";
-import { SiTypescript, SiMaterialui, SiAwsamplify } from "react-icons/si";
+import { SiTypescript, SiMaterialui, SiHeroku } from "react-icons/si";
 import Stat_Quiz_pic from '../images/stat_quiz_pic.jpg';
 
 interface  project_props {
@@ -28,7 +28,7 @@ function StatQuizProject(props: project_props) {
                     <SiTypescript className="icons icons_projects" title="TypeScript" />
                     <FaHtml5 className="icons icons_projects" title="HTML5" />
                     <FaCss3Alt className="icons icons_projects" title="CSS" />
-                    <SiAwsamplify className="icons icons_projects" title="AWS Amplify" />
+                    <SiHeroku className="icons icons_projects" title="Heroku" />
                 </div>
             </div>
             <div id={props.direction + "_project_pic_container"}>
