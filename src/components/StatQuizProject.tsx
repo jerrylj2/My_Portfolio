@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaReact, FaHtml5, FaCss3Alt, FaGithub } from "react-icons/fa";
-import { SiTypescript, SiMaterialui, SiHeroku } from "react-icons/si";
+import { FaReact, FaHtml5, FaCss3Alt, FaGithub, FaNodeJs } from "react-icons/fa";
+import { SiTypescript, SiMaterialui, SiHeroku, SiPostgresql } from "react-icons/si";
 import Stat_Quiz_pic from '../images/stat_quiz_pic.jpg';
 
 interface  project_props {
@@ -20,12 +20,14 @@ function StatQuizProject(props: project_props) {
                     </a>
                 </div>
                 <div>
-                    <p><strong>Can you beat the Stat Quiz Challenge? This app is developed using TypeScript, ReactJS and Material UI!</strong></p>
+                    <p><strong>Can you beat the Stat Quiz Challenge? Developed with ReactJS, TypeScript, Material UI, NodeJS, and PostgreSQL!</strong></p>
                 </div>
                 <div>
                     <FaReact className="icons icons_projects" title="ReactJS" />
                     <SiMaterialui className="icons icons_projects" title="Material UI" />
                     <SiTypescript className="icons icons_projects" title="TypeScript" />
+                    <SiPostgresql className="icons icons_projects" title="PostgreSQL" />
+                    <FaNodeJs className="icons icons_projects" title="NodeJS" />
                     <FaHtml5 className="icons icons_projects" title="HTML5" />
                     <FaCss3Alt className="icons icons_projects" title="CSS" />
                     <SiHeroku className="icons icons_projects" title="Heroku" />

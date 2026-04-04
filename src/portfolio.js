@@ -28,7 +28,7 @@ function Portfolio() {
       <div id="angled_color_projects"></div>
       <Contact />
       <footer>
-        <p>© 2023 | designed & coded by Jerry Jackson</p>
+        <p>Designed & Coded by Jerry Jackson</p>
       </footer>
     </body>
   );
